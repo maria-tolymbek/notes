@@ -1,0 +1,36 @@
+#title {
+  background-color: aquamarine;
+  text-align: center;
+  height: 10%;
+}
+#title h2 {
+  color: black;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  padding: 20px;
+}
+
+#content {
+  background-color: cadetblue;
+
+  text-align: left;
+  display: flex;
+  width: 100%;
+}
+
+#sidebar {
+  background-color: cornsilk;
+  width: 20%;
+}
+
+#main {
+  display: flex;
+  flex-direction: row-reverse;
+  height: inherit;
+  height: 90%;
+}
+
+#app {
+  height: 100vh;
+}
